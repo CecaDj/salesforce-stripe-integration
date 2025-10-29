@@ -32,11 +32,9 @@ Stripe → Webhook Event → Heroku App → JWT Auth → Salesforce Invoice Upda
 
 ## 🛠️ Environment Variables
 
-Set the following in Heroku:
-
 | Variable | Description |
 |---------|-------------|
-| `STRIPE_SECRET_KEY` | Your Stripe API secret key |
+| `STRIPE_SECRET_KEY` | Stripe API secret key |
 | `STRIPE_WEBHOOK_SECRET` | Secret for verifying webhook signatures |
 | `SF_CLIENT_ID` | Connected App Consumer Key from Salesforce |
 | `SF_USERNAME` | Integration User username |
